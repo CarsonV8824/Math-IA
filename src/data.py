@@ -58,11 +58,21 @@ class DataHandling:
         data = self.cursor.fetchall()
         return data
     
+    def get_data_by_math_all(self, max_hour:int=6):
+        sql_query = """SELECT * FROM math_ia WHERE hour_of_class = ? AND favorite_subject = ?"""
+        final = []
+        for i in range(1, max_hour+1):
+            self.cursor.execute(sql_query, (i, "Math"))
+            data = self.cursor.fetchall()
+            final.append(data)
+        real_final = [j for i in final for j in i]
+        return real_final
+    
     def __del__(self) -> None:
         self.connection.close()
 
 
 if __name__ == "__main__":
     data = DataHandling()
-    print(data.get_all_data())
+    print(data.get_data_by_math_all())
             
