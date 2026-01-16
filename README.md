@@ -24,3 +24,5 @@
 
 - numpy[https://numpy.org/doc/stable/index.html]
 
+- pytest[https://docs.pytest.org/en/stable/]
+
