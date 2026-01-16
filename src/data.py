@@ -3,26 +3,23 @@ import sqlite3
 
 class DataHandling:
     def __init__(self, database="src/data/MathIA.db") -> None:
-        self.data:list[tuple] = [()]
-        self.total = 0
+        self.data:list[tuple] = []
+        self.total:int = 0
         
         # init private methods
         self.__get_data_from_csv()
 
         self.__make_database(database=database)
         self.__insert_in_database(self.data)
-        self.__sort_database()
 
     def __get_data_from_csv(self) -> None:
         with open("src/data/data.csv") as f:
             file = csv.reader(f)
 
             for index, line in enumerate(file):
-                if index < 1:
-                    continue
-                else:
-                    self.data.append(line)
-                    self.total = index
+                
+                self.data.append(line)
+                self.total = index + 1
                     
     def __make_database(self, database="src/data/MathIA.db"):
         self.connection:sqlite3.Connection = sqlite3.Connection(database)
@@ -33,7 +30,10 @@ class DataHandling:
             class TEXT,
             hour_of_class INTEGER,
             favorite_subject TEXT,
-            best_class INTEGER
+            best_class INTEGER,
+            r_value INTEGER,
+            m_value FLOAT,
+            b_value FLOAT
         );
         """)
     
@@ -48,31 +48,44 @@ class DataHandling:
             except Exception as e:
                 print(f"csv not formatted correctly one line {index+1}. Error {e}")
 
-    def __sort_database(self) -> None:
-        sql_query = f"SELECT * from math_ia ORDER BY hour_of_class ASC"
-        self.cursor.execute(sql_query)
-        self.connection.commit()
-
     def get_all_data(self) -> list[tuple]:
         self.cursor.execute("SELECT * FROM math_ia")
         data = self.cursor.fetchall()
         return data
     
-    def get_data_by_math_all(self, max_hour:int=6):
-        sql_query = """SELECT * FROM math_ia WHERE hour_of_class = ? AND favorite_subject = ?"""
+    def get_data_of_how_many_students_in_class(self, max_hour:int=6) -> list[tuple]:
+        sql_query = """SELECT COUNT(*) FROM math_ia WHERE hour_of_class = ?"""
+        final = []
+        for i in range(1, max_hour+1):
+            self.cursor.execute(sql_query, (i,))
+            data = self.cursor.fetchall()
+            final.append(data[0][0])
+        return final
+
+    def get_count_of_each_hour_of_math(self, max_hour:int=6) -> list[int]:
+        sql_query = """SELECT COUNT(*) FROM math_ia WHERE hour_of_class = ? AND favorite_subject = ?"""
         final = []
         for i in range(1, max_hour+1):
             self.cursor.execute(sql_query, (i, "Math"))
             data = self.cursor.fetchall()
-            final.append(data)
-        real_final = [j for i in final for j in i]
-        return real_final
+            final.append(data[0][0])
+        return final
     
+    def add_r_value(self, r_value:float) -> None:
+        sql_query = f"""INSERT INTO math_ia (r_value) VALUES (?)"""
+        self.cursor.execute(sql_query, (r_value,))
+        self.connection.commit()
+
+    def add_linear_equation(self, m_value:float, b_value:float) -> None:
+        sql_query = f"""INSERT INTO math_ia (m_value, b_value) VALUES (?,?)"""
+        self.cursor.execute(sql_query, (m_value,b_value,))
+        self.connection.commit()
+
     def __del__(self) -> None:
         self.connection.close()
 
-
 if __name__ == "__main__":
     data = DataHandling()
-    print(data.get_data_by_math_all())
+    print(len(data.get_all_data()))
+    
             
