@@ -16,9 +16,11 @@
 
 ## Docs
 
-- sqlite[https://docs.python.org/3/library/sqlite3.html]
+-csv[!https://docs.python.org/3/library/csv.html]
 
-- matplotlib[https://matplotlib.org/stable/]
+- sqlite[!https://docs.python.org/3/library/sqlite3.html]
 
-- numpy[https://numpy.org/doc/stable/index.html]
+- matplotlib[!https://matplotlib.org/stable/]
+
+- numpy[!https://numpy.org/doc/stable/index.html]
 
