@@ -1,8 +1,8 @@
-# Topic: Does Math Enjoyment Affect Computer Science Enrollment?: An Analysis of Data of Math Enjoyment and Computer Science
+# Data on the relationship between enjoying Math and Computer Science Enrollment
 
 ## goals of repo
 
--Make Graphs based off my data
+-Make Graphs based on my data
 
 -Store data in a database
 
