@@ -1,28 +1,44 @@
-# Data on the relationship between enjoying Math and Computer Science Enrollment
+# Data on the Relationship Between Enjoying Math and Computer Science Enrollment
 
-## goals of repo
+A data analysis project exploring the correlation between math enjoyment and CS enrollment, with visualizations, database storage, and statistical analysis.
 
-- Make Graphs based on my data
+## Table of Contents
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Disclaimers](#disclaimers)
 
-- Store data in a database
+## About
 
-- Hold my Excel SpreadSheet
+This project analyzes survey data to examine the relationship between student enjoyment of mathematics and their enrollment in computer science courses. It includes data visualization, database storage, and statistical computations.
 
-## *Disclaimers
+## Getting Started
 
-- I did all of my math on my own before making the project
+### Prerequisites
+- Python 3.x
 
-- I also used this repo to practice skills for my Summit Technology Class on Data and AI
+### Installation
+1. Clone the repository
+2. Install required dependencies
 
-## Docs
+## Usage
 
-- csv[https://docs.python.org/3/library/csv.html]
+Run graph.py to see the graph. Use DB Broswer for Sqlite to see the data in the database.
 
-- sqlite[https://docs.python.org/3/library/sqlite3.html]
+## Technologies
 
-- matplotlib[https://matplotlib.org/stable/]
+- **CSV** - Data import/export: https://docs.python.org/3/library/csv.html
+- **SQLite** - Database storage: https://docs.python.org/3/library/sqlite3.html
+- **Matplotlib** - Data visualization: https://matplotlib.org/stable/
+- **NumPy** - Numerical computing: https://numpy.org/doc/stable/index.html
+- **Pytest** - Testing framework: https://docs.pytest.org/en/stable/
 
-- numpy[https://numpy.org/doc/stable/index.html]
+## Disclaimers
 
-- pytest[https://docs.pytest.org/en/stable/]
+- All mathematical calculations were completed independently before project creation
+- This project was created as part of Summit Technology Class coursework on Data and AI
 
+## License
+
+MIT
