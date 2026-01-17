@@ -1,4 +1,14 @@
 import pytest
+from src.data import DataHandling
 
-def test_data():
-    assert True
+class testDataHandling:
+
+    def test_init():
+        test = DataHandling(":memory:")
+        data = test.get_all_data()
+
+        for line in data:
+            if line:
+                assert True
+            else:
+                assert False

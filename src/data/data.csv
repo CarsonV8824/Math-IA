@@ -1,43 +1,42 @@
 Timestamp,What class are you in?,What hour do you have class?,What is your favorite core class?,Is this your best performing core class?
-10/29/2025 7:47,Cybersecurity Fundamentals I,1,History,Yes
-10/29/2025 7:55,Cybersecurity Fundamentals I,1,History,No
-10/29/2025 7:55,Cybersecurity Fundamentals I,1,ELA,Yes
-10/29/2025 7:55,Cybersecurity Fundamentals I,1,Math,Yes
-10/29/2025 7:56,Cybersecurity Fundamentals I,1,Math,Yes
-10/29/2025 7:58,Cybersecurity Fundamentals I,1,History,No
-10/29/2025 7:58,Cybersecurity Fundamentals I,1,Math,Yes
-10/29/2025 7:58,Cybersecurity Fundamentals I,1,ELA,Yes
-10/29/2025 8:16,Cybersecurity Fundamentals I,2,History,Yes
-10/29/2025 8:24,Cybersecurity Fundamentals I,2,Science,Yes
-10/29/2025 8:24,Cybersecurity Fundamentals I,2,Math,No
-10/29/2025 8:24,Cybersecurity Fundamentals I,2,History,No
-10/29/2025 8:25,Cybersecurity Fundamentals I,2,History,Yes
-10/29/2025 8:25,Cybersecurity Fundamentals I,2,ELA,Yes
-10/29/2025 8:29,Cybersecurity Fundamentals I,2,History,No
-10/29/2025 8:29,Cybersecurity Fundamentals I,2,History,No
-10/29/2025 8:32,Cybersecurity Fundamentals I,2,Science,Yes
-10/29/2025 8:34,Cybersecurity Fundamentals I,1,Math,Yes
-10/29/2025 9:10,Cybersecurity Fundamentals I,1,Math,No
-10/29/2025 11:12,Cybersecurity Fundamentals I,1,Math,Yes
-10/29/2025 11:25,Cybersecurity Fundamentals I,5,Science,Yes
-10/29/2025 11:26,Cybersecurity Fundamentals I,5,ELA,Yes
-10/29/2025 11:38,Cybersecurity Fundamentals I,5,Science,Yes
-10/29/2025 11:40,Cybersecurity Fundamentals I,5,History,No
-10/29/2025 12:40,AP Computer Science Principles,6,Math,No
-10/29/2025 12:41,AP Computer Science Principles,6,Science,No
-10/29/2025 12:41,AP Computer Science Principles,6,Science,Yes
-10/29/2025 12:41,AP Computer Science Principles,6,ELA,Yes
-10/29/2025 12:41,AP Computer Science Principles,6,History,No
-10/29/2025 12:42,AP Computer Science Principles,6,Math,Yes
-10/29/2025 12:42,AP Computer Science Principles,6,Science,Yes
-10/29/2025 13:05,AP Computer Science Principles,6,Math,No
-10/29/2025 13:14,AP Computer Science Principles,3,Science,Yes
-10/29/2025 15:17,Cybersecurity Fundamentals I,1,History,No
-10/29/2025 17:42,AP Computer Science Principles,3,History,No
-10/29/2025 18:31,Cybersecurity Fundamentals I,7,History,Yes
-10/29/2025 22:27,AP Computer Science A,4,Science,Yes
-10/29/2025 22:47,Cybersecurity Fundamentals I,2,Math,Yes
-10/30/2025 7:22,AP Computer Science A,4,ELA,Yes
-10/30/2025 7:32,AP Computer Science A,4,Math,No
-10/30/2025 11:26,AP Computer Science A,4,History,No
-12/4/2025 7:30,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 7:47:10,Cybersecurity Fundamentals I,1,History,Yes
+10/29/2025 7:55:45,Cybersecurity Fundamentals I,1,History,No
+10/29/2025 7:55:52,Cybersecurity Fundamentals I,1,ELA,Yes
+10/29/2025 7:55:54,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 7:56:23,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 7:58:05,Cybersecurity Fundamentals I,1,History,No
+10/29/2025 7:58:31,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 7:58:33,Cybersecurity Fundamentals I,1,ELA,Yes
+10/29/2025 8:16:50,Cybersecurity Fundamentals I,2,History,Yes
+10/29/2025 8:24:28,Cybersecurity Fundamentals I,2,Science,Yes
+10/29/2025 8:24:43,Cybersecurity Fundamentals I,2,Math,No
+10/29/2025 8:24:56,Cybersecurity Fundamentals I,2,History,No
+10/29/2025 8:25:00,Cybersecurity Fundamentals I,2,History,Yes
+10/29/2025 8:25:01,Cybersecurity Fundamentals I,2,ELA,Yes
+10/29/2025 8:29:18,Cybersecurity Fundamentals I,2,History,No
+10/29/2025 8:29:32,Cybersecurity Fundamentals I,2,History,No
+10/29/2025 8:32:45,Cybersecurity Fundamentals I,2,Science,Yes
+10/29/2025 8:34:03,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 9:10:15,Cybersecurity Fundamentals I,1,Math,No
+10/29/2025 11:12:08,Cybersecurity Fundamentals I,1,Math,Yes
+10/29/2025 11:25:27,Cybersecurity Fundamentals I,5,Science,Yes
+10/29/2025 11:26:04,Cybersecurity Fundamentals I,5,ELA,Yes
+10/29/2025 11:38:34,Cybersecurity Fundamentals I,5,Science,Yes
+10/29/2025 11:40:24,Cybersecurity Fundamentals I,5,History,No
+10/29/2025 12:40:51,AP Computer Science Principles,6,Math,No
+10/29/2025 12:41:04,AP Computer Science Principles,6,Science,No
+10/29/2025 12:41:18,AP Computer Science Principles,6,Science,Yes
+10/29/2025 12:41:24,AP Computer Science Principles,6,ELA,Yes
+10/29/2025 12:41:34,AP Computer Science Principles,6,History,No
+10/29/2025 12:42:17,AP Computer Science Principles,6,Math,Yes
+10/29/2025 12:42:54,AP Computer Science Principles,6,Science,Yes
+10/29/2025 13:05:45,AP Computer Science Principles,6,Math,No
+10/29/2025 13:14:38,AP Computer Science Principles,3,Science,Yes
+10/29/2025 15:17:49,Cybersecurity Fundamentals I,1,History,No
+10/29/2025 17:42:29,AP Computer Science Principles,3,History,No
+10/29/2025 18:31:33,Cybersecurity Fundamentals I,5,History,Yes
+10/29/2025 22:27:51,AP Computer Science A,4,Science,Yes
+10/29/2025 22:47:04,Cybersecurity Fundamentals I,2,Math,Yes
+10/30/2025 7:22:41,AP Computer Science A,4,ELA,Yes
+10/30/2025 7:32:05,AP Computer Science A,4,Math,No
+10/30/2025 11:26:47,AP Computer Science A,4,History,No
